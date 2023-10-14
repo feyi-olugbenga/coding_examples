@@ -1,12 +1,11 @@
 To run this service you must:
 1. install the requirements.txt file using pip install requirments.txt in your terminal
 2. run the code through your IDE or with the command `python brightwheel_assessment.py`
-    (The prompt didn't have the bucket name and I couldn't list the buckets with the AWS permissions I had)
     
 When doing this I initially wanted to read in and manipulate all 3 data sources but I found that half way through the first
 dataset I worked on (Oklahoma) that that was too big a project to do in 2 hours. I have a few regrets with this:
  - I should have reduced the amount of columns that I tried to map from the Oklahoma dataset to the output dataset. 32 columns for 3 datasets in 2 hours is a lot to take on.
- - I spent too much time trying to read in the datasets from AWS and fixing the errors when reading them in from local. 
+ - The prompt didn't have the AWS bucket name and I spent too much time trying to read in the datasets from AWS and fixing the errors when reading them in from local. 
  I'm not sure if this was intended but the Oklahoma file cuts off in the middle of the last line and the Nevada file has a different encoding than the other 2
  - I did some stuff fast instead of efficient and did not cover many edge cases
  
