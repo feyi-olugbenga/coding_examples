@@ -1,6 +1,6 @@
 To run this service you must:
-    1. install the requirements.txt file using pip install requirments.txt in your terminal
-    2. run the code through your IDE or with the command `python brightwheel_assessment.py`
+    - install the requirements.txt file using pip install requirments.txt in your terminal
+    - run the code through your IDE or with the command `python brightwheel_assessment.py`
     (The prompt didn't have the bucket name and I couldn't list the buckets with the AWS permissions I had)
     
 When doing this I initially wanted to read in and manipulate all 3 data sources but I found that half way through the first
